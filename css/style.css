@@ -24,6 +24,7 @@ form, input {
 .message {
   text-align: center;
   font-family: 'Oswald';
+  padding: 75px 0;
 }
 
 .button-container {
@@ -38,6 +39,7 @@ form, input {
   border-radius: 3px;
   padding: 5px;
   font-size: 17px;
+  text-decoration: none;
 }
 
 .footer {

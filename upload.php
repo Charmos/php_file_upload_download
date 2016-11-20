@@ -17,14 +17,18 @@
     <title>Successful Download</title>
   </head>
   <body>
-    <div class="message">
-        <?php
-          echo $message
-        ?>
+    <div class="content">
+      <div class="header"></div>
+      <div class="message">
+          <?php
+            echo $message
+          ?>
+      </div>
+      <div class="button-container">
+        <a href="index.php" class="button">upload another file</a>
+        <a href="download.php" class="button">go to files</a>
+      </div>
     </div>
-    <div class="button-container">
-      <a href="index.php" class="button">upload another file</a>
-      <a href="download.php" class="button">go to files</a>
-    </div>
+    <div class="footer"></div>
   </body>
 </html>
