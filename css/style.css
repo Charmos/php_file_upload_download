@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: #607D8B;
+}
+
+.content {
+  height: 100vh;
+}
+
+form {
+  padding-top: 300px;
+}
+
+form, input {
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.message {
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.button-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Raleway';
+  border: 1px dimgrey solid;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #607D8B
+}
